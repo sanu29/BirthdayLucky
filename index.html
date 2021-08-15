@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Birthday lucky & unlucky</title>
+</head>
+
+<body>
+
+    <div class="divmain">
+        <div class="innerdiv" id="welcome">
+            <div class="alert alert-danger"><center><B>Privacy Note :</B>We are not storing your data</center></div>
+            <img src="p1.svg" alt="img" class="img">
+            <span class="header">Is Your Birthday Lucky?</span>
+            <center>
+                <div class="button" id="submit1">click here</div>
+            </center>
+
+
+
+        </div>
+        <div class="innerdiv hidden" id="main">
+            <div class="left">
+                <div class="alert alert-danger" id="error"></div>
+                <img src="p1.svg" alt="img" class="img">
+                <input type="date" class="form-control input" placeholder="enter the birthdate" id="dob" required><br>
+                <input type="number" class="form-control input" placeholder="enter your lucky number" id="fav"
+                    required></br>
+                <center>
+                    <input type="submit" class=" button" id="submit">
+                </center>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="innerdiv hidden" id="res">
+
+            <img src="p1.svg" alt="img" class="img">
+            <span class="header" id="output"></span>
+            <center>
+                <div class="button" id="reload">Check Again</div>
+            </center>
+
+
+
+
+        </div>
+    </div>
+
+   
+<footer class="footer">
+    <div class="center">
+        <div>
+            <span class="button1"><a href="https://www.linkedin.com/in/sanu29/" target="new">LinkedIn</a></span>
+            <span class="button1"><a href="https://github.com/sanu29" target="new">Github</a></span>
+            <span class="button1"><a href="https://saniya-shaikh.netlify.app/" target="new">Portfolio</a></span>
+        </div>
+        <hr>
+        <div class="button1">
+            © | 2021 | Saniya
+        </div>
+        
+    </div>
+  
+</footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
